@@ -4,7 +4,7 @@
 ## creates matrix and sets list of functions
 
 ## this is the makeVector Function with inverse replacing mean
-## replaced all m's with an i
+## replaced all m's with an Vinv
 ## creates some functions and a matrix from passed in valuesii
 makeCacheMatrix <- function(x = matrix()) {
         Vinv <- NULL  ## initialize the inverse to null
@@ -23,7 +23,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## This should return the inverse of the matrix, but there is an issue
-## with the matrix not being square, an issue for which I can't a solution
+## with the matrix not being square, an issue for which I cannot find a solution
 ## test cacheSolve(makeCacheMatrix(matrix(1:9, nrow = 3, ncol = 3)))
 
 cacheSolve <- function(x, ...) {
